@@ -1,1 +1,1 @@
-# simple-template-action-private
+# simple-template-action-public
