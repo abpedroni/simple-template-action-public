@@ -11,21 +11,12 @@ on:
       username:
         description: "Username description"
         required: true
+        type: string
   #  secrets:
   #    registry_username:
   #      required: true
   #    registry_password:
   #      required: true
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Run a one-line script
-        run: echo Hello from Octo Organization
 
 jobs:
   build-step-1:
